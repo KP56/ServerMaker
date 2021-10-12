@@ -1,0 +1,1 @@
+package me.KP56.test;import org.bukkit.Bukkit;import org.bukkit.plugin.java.JavaPlugin;public class Main extends JavaPlugin{public static void test(String text){Bukkit.broadcastMessage(text);}public void onEnable() {Bukkit.getPluginManager().registerEvents(new CustomEventListener(), this);}}
